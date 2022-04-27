@@ -6,4 +6,6 @@
 				   android:value="AIzaSyDG4QF_EmF09_K305iwWidjUmp4vBzEpKg" />
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 </manifest>
