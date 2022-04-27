@@ -15,7 +15,8 @@ namespace TripLog.Views
 
             //BindingContextChanged += Page_BindingContextChanged;
 
-            BindingContext = new NewEntryViewModel();
+            // The BindingContext can be set in xaml or in code here:
+            //BindingContext = new NewEntryViewModel();
         }
 
         //// Observe ErrorsChanged event with
