@@ -4,6 +4,13 @@ using Xamarin.Forms;
 
 namespace TripLog.Converters
 {
+    /*
+     * For Android add images to Resources/drawable
+     * For UWP add images to main folder(!) TripLog.UWP
+     * For iOS ...
+     * 
+     * In .NET MAUI one resource folder is needed for multiple platforms
+     */
     public class RatingToStarImageNameConverter : IValueConverter
     {
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
